@@ -1,0 +1,222 @@
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+h2 {
+	margin-bottom: 0rem;
+}
+
+#abonnement{
+	text-decoration: underline;
+	padding-top: 150px;
+	padding-left: 80px;
+	text-align: left;
+}
+#follow{
+	text-decoration: underline;
+	padding-bottom: 80px;
+	text-align: right;
+	padding-right: 80px;
+}
+
+.header{
+	background-color: #fce373;
+}
+.header p{
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	
+}
+.header #moncompte{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+}
+.footer{
+	background-color: rgb(154, 209, 139);
+	padding-top: 110px !important;
+}
+
+#profil{
+	text-align: right;
+	margin-top: -3px;
+}
+#chef{
+	position: absolute;
+	right: 8px;
+	top: 56px;
+}
+.cercle {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 60px auto;
+  background-color: rgba(202, 172, 155, 0.87);
+  border-radius: 50%;
+  border-style: double;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   	-webkit-filter: sepia(100%);filter: sepia(90%);
+}
+
+h1{
+	font-size: 27px;
+	color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+	margin-top: 80px;
+}
+
+.button{
+  background-color: #231f20;
+  border: none;
+  color:rgb(252, 227, 115);
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px inset black;
+  margin-left: 450px;
+  margin-top: -100px;
+  padding-top: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
+}
+
+.button{
+  background-color: black;
+  border: none;
+  color:white;
+  padding: 0px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 8px;
+  margin-left: 304px;
+  margin-top: 5px;
+}
+
+.button a p {
+
+}
+
+
+#searchbar{
+	display: inline-block;
+	margin-left: 153px;
+	width: 408px !important;
+}
+
+input {
+	width: 100%;
+}
+
+#etoile{
+-webkit-filter: invert(100%);filter: invert(100%);
+margin-bottom: 6px;
+margin-left: 10px;
+}
+
+#student{
+	margin-top: 40px;
+	margin-left: 151px;
+	width: 410px;
+}
+
+.bottomleft{
+	margin-top: -64px;
+	margin-left: 155px;
+}
+.col-md-1{
+	border: 1px solid #fce373;
+}
+.localisation{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}
+
+#uno{
+margin-left: 100px;
+margin-top: 50px;
+
+}
+#photo{
+	border-radius: 50%;
+	width: 160px;
+	height: 150px;
+}
+#dos{
+	margin-left: 280px;
+	margin-top: -180px;
+}
+#second{
+	border-radius: 50%;
+	width: 160px;
+	height: 150px;
+}
+#third{
+	margin-left: 520px;
+	margin-top: -185px;
+}
+#tres{
+	border-radius: 50%;
+	width: 160px;
+	height: 150px;
+}
+h4{
+	font-size: 22px;
+	color: white;
+}
+/*CSS BASILE*/
+
+
+
+.container-content {
+	height: 90vh;
+}
+
+.container-content .row {
+	height: 100%;
+}
+
+.bloc-left {
+	background-color: rgb(194, 166, 154, 1);
+}
+
+.bloc-middle {
+	background-color: #cca69a;
+
+}
+
+.bloc-right {
+	background-image: url(images/accueilright.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.card_localisation {
+	border: 2px solid black;
+	border-radius: 2px;
+	background-color: black;
+}
+
+.lien-footer {
+	display: flex;
+	justify-content: space-around;
+}
+
+.icon-social {
+	text-align: right;
+
+padding-right: 220px;
+}
